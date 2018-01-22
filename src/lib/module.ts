@@ -67,7 +67,7 @@ const ALL_DIRECTIVES = [
   providers: [
     MEDIA_MONITOR_PROVIDER,
     DEFAULT_BREAKPOINTS_PROVIDER,   // Extend defaults with internal custom breakpoints
-    OBSERVABLE_MEDIA_PROVIDER
+    OBSERVABLE_MEDIA_PROVIDER,
   ]
 })
 export class FlexLayoutModule {
